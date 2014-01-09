@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="http://i.icomoon.io/public/a41d2dd2f4/MuLandingPage/style.css">    
     <link href="css/bootstrap-theme.css" rel="stylesheet" media="screen">
     <link href="css/my-styles.css" rel="stylesheet" media="screen">
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -16,6 +21,16 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
+
+    <script type="text/javascript">
+      $(function () {
+        $(".ft-popover a").popover({
+          trigger: 'hover' ,
+          placement: 'top',
+        });
+      })
+    </script>
+
   </head>
 
   <body>
@@ -81,9 +96,9 @@
 
       <!-- Main features -->
       <div class="row" id="features">
-        <div class="container">
+        <div class="container ft-popover">
           <div class="col-sm-2 col-sm-offset-1">
-            <a href="#spending" data-toggle="modal">
+            <a href="#spending" data-toggle="popover" data-content="Easily track your purchases on your mobile devices">
               <img class="img-responsive" src="public/img/icons/credit-card.png">
               <div class="ft-text">Mu Card</div>
             </a>
@@ -91,28 +106,28 @@
           </div>
             
           <div class="col-sm-2">
-            <a href="#saving" data-toggle="modal">
+            <a href="#saving" data-toggle="popover" data-content="Make saving-up for your next treat much easier">
               <img class="img-responsive" src="public/img/icons/money-saving.png">
               <div class="ft-text">Automatic Savings</div>
               </a>
           </div>
 
           <div class="col-sm-2">
-            <a href="#saving" data-toggle="modal">
+            <a href="#goals" data-toggle="popover" data-content="Set and share your financial targets. Realize your dreams">
               <img class="img-responsive" src="public/img/icons/target.png">
               <div class="ft-text">Simple Goal Settings</div>
             </a>
           </div>
 
           <div class="col-sm-2">
-            <a href="#saving" data-toggle="modal">
+            <a href="#rewards" data-toggle="popover" data-content="Never forget to collect your points again">
               <img class="img-responsive" src="public/img/icons/medal.png">
               <div class="ft-text">Real Rewards</div>
             </a>
           </div>
 
           <div class="col-sm-2">
-            <a href="#saving" data-toggle="modal">
+            <a href="#shopping" data-toggle="popover" data-content="Improve your shopping and help your friends">
               <img class="img-responsive" src="public/img/icons/shirt.png">
               <div class="ft-text">Better Shopping</div>
             </a>
@@ -232,9 +247,7 @@
     </div>
     <!-- End Survey -->
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.js"></script>
+
+
   </body>
 </html>
