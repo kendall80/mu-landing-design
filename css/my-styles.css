@@ -27,9 +27,10 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .ft-text {
 	font-size: 14px;
-	font-weight: 500;
+	font-weight: 300;
 	text-transform: uppercase;
 	color: Dimgray;
+	padding-top: 10px;
 }
 
 /* Navbar
@@ -83,6 +84,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
 #features .img-responsive {
 	max-width: 75%;
+	display: inline-block;
 } 
 
 #claim {
