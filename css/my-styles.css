@@ -39,7 +39,7 @@ body {
 ========================== */
 
 .banner {
-	height: 50px;
+	height: 60px;
 	display: block;
 }
 
@@ -48,6 +48,8 @@ body {
 	display: inline-block;
 	position: relative;
 	white-space: nowrap;
+	padding: 10px 0;
+	text-decoration: none;
 }
 
 .banner a:after {
@@ -193,6 +195,9 @@ button {
 /* Logos & Icons
 ========================== */
 
+.logo {
+	text-transform: lowercase;
+}
 
 .main-logo {
 	width: 45px;
