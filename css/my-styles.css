@@ -1,10 +1,9 @@
 /* General Layout
 ========================== */
 
-body {
+body, h1, h2, h3, h4, h5, h6 {
 	font-family: 'Lato', Helvetica, Arial, sans-serif;
 	font-weight: 400;
-	font-size: 14px;
 	background-color: #45C18E;
 	color: #fff;
 }
@@ -50,6 +49,10 @@ body {
 	white-space: nowrap;
 	padding: 10px 0;
 	text-decoration: none;
+	vertical-align: baseline;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 12px;
 }
 
 .banner a:after {
@@ -70,17 +73,40 @@ body {
 	position: relative;
 	width: 900px;
 	padding: 10px 0;
-	margin: auto;
-	vertical-align: baseline;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	font-size: 12px;
+	margin: 0 auto;
 }
 
 .content:after {
 	content: "";
 	display: inline-block;
 	width: 100%;
+}
+
+/* Hero
+========================== */
+
+.hero {
+	height: 450px;
+}
+
+.headline {
+	padding-top: 30px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+h1 {
+	padding: 0;
+	font-size: 44px;
+	line-height: 52px;
+	margin-bottom: 5px;
+	letter-spacing: 2px;
+	font-weight: 200;
+	text-transform: uppercase;
+}
+
+.call-to-action {
+	margin-top: 20px;
 }
 
 /* Page Styles
