@@ -86,7 +86,7 @@ body, h1, h2, h3, h4, h5, h6 {
 ========================== */
 
 .hero {
-	height: 450px;
+	height: 600px;
 }
 
 .headline {
@@ -107,6 +107,15 @@ h1 {
 
 .call-to-action {
 	margin-top: 20px;
+}
+
+.message {
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(0,0,0,0.15);
 }
 
 /* Page Styles
