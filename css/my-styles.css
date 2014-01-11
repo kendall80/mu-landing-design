@@ -14,11 +14,11 @@ article, footer, header, section {
 }
 
 .home .hero {
-	background-position: 50% 77%;
+	background-position: 50% 100%;
 	text-align: center;
-	background-image: url("../public/img/iphone-app.png");
+	background-image: url("../public/img/iphone.png");
 	background-repeat: no-repeat;
-	background-size: auto 50%;
+	background-size: auto 70%;
 }
 
 .container {
@@ -28,9 +28,6 @@ article, footer, header, section {
 	margin-left: 0px;
 	margin-right: 0px;
 }
-
-
-
 
 /* Web Fonts
 ========================== */
@@ -189,6 +186,16 @@ h1 {
 
 .last {
 	padding: 0 100px;
+}
+
+/* Footer
+========================== */
+
+.footer {
+	background: #fff;
+	color: dimgray;
+	letter-spacing: 1px;
+	padding: 20px 0;
 }
 
 /* Jumbotron
