@@ -155,10 +155,12 @@ h1 {
 	background: #fff;
 	color: dimgray;
 	letter-spacing: 1px;
+	padding: 30px 0;
+	border-bottom: solid 1px #D8D8D8;
 }
 
 .ecosystem .row {
-	padding: 50px 0;
+	padding: 30px 0;
 }
 
 .ft-icon {
@@ -171,29 +173,23 @@ h1 {
 	font-size: 21px;
 	font-weight: 300;
 	padding-top: 10px;
-
-
 }
 
-
-/* Page Styles
+/* Final Claim
 ========================== */
 
-
-.col-sm-3 {
+.claim {
 	text-align: center;
-	padding-right: 30px;
-	padding-left: 30px;
 }
 
-.col-sm-2 a {
-	text-decoration: none;
-	color: inherit;
+.claim h3 {
+	line-height: 1.5;
+	padding-bottom: 20px;
 }
 
-
-
-
+.last {
+	padding: 0 100px;
+}
 
 /* Jumbotron
 ========================== */
