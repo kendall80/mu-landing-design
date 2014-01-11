@@ -161,9 +161,7 @@ h1 {
 }
 
 .ft-icon {
-	float: none;
-	margin: 0 auto;	
-	text-align: center;
+	margin: auto;	
 }
 
 .ft-text {
