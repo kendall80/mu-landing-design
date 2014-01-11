@@ -12,9 +12,13 @@ article, footer, header, section {
 	display: block;
 }
 
-.home  {
-	background-position: 50% 50%;
+.home .hero {
+	background-position: 50% 77%;
 	text-align: center;
+	background-image: url("../public/img/iphone-app.png");
+	background-repeat: no-repeat;
+	background-size: auto 50%;
+	
 }
 
 .container {
@@ -101,8 +105,6 @@ section {
 
 .hero {
 	height: 530px;
-	text-align: center;
-	background-position: 50% 50%;
 }
 
 .headline {
