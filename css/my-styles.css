@@ -8,6 +8,15 @@ body, h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 }
 
+article, footer, header, section {
+	display: block;
+}
+
+.home  {
+	background-position: 50% 50%;
+	text-align: center;
+}
+
 .container {
 	width: 100%;
 	padding-right: 0px;
@@ -42,6 +51,10 @@ body, h1, h2, h3, h4, h5, h6 {
 	display: block;
 }
 
+.banner .content {
+	text-align: justify;
+}
+
 .banner a {
 	color: #fff;
 	display: inline-block;
@@ -68,15 +81,12 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .content {
-	text-align: justify;
-	height: 100%;
-	position: relative;
+
 	width: 900px;
-	padding: 10px 0;
 	margin: 0 auto;
 }
 
-.content:after {
+.banner .content:after {
 	content: "";
 	display: inline-block;
 	width: 100%;
@@ -85,14 +95,19 @@ body, h1, h2, h3, h4, h5, h6 {
 /* Hero
 ========================== */
 
+section {
+	position: relative;
+}
+
 .hero {
-	height: 600px;
+	height: 530px;
+	text-align: center;
+	background-position: 50% 50%;
 }
 
 .headline {
 	padding-top: 30px;
 	padding-bottom: 50px;
-	text-align: center;
 }
 
 h1 {
@@ -118,15 +133,25 @@ h1 {
 	background-color: rgba(0,0,0,0.15);
 }
 
+.ft {
+	position: relative;
+	margin: 20px 0;
+	padding-left: 30px;
+	padding-right: 30px;
+	display: inline;
+	vertical-align: middle;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
 /* Page Styles
 ========================== */
 
 
-.col-sm-2 {
+.col-sm-3 {
 	text-align: center;
-	padding-right: 20px;
-	padding-left: 20px;
-	margin: 0 15px 0 15px;
+	padding-right: 30px;
+	padding-left: 30px;
 }
 
 .col-sm-2 a {
