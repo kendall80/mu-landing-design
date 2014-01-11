@@ -163,13 +163,17 @@ h1 {
 .ft-icon {
 	float: none;
 	margin: 0 auto;	
-	height: 185px;
+	text-align: center;
 }
 
 .ft-text {
 	font-size: 21px;
 	font-weight: 300;
 	padding-top: 10px;
+}
+
+.ft-text a {
+	font-weight: 400;
 }
 
 /* Final Claim
