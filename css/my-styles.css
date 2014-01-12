@@ -49,7 +49,12 @@ article, footer, header, section {
 .logo {
 	font-family: "GFS Didot";
 	text-transform: lowercase !important;
-	font-size: 36px !important;	
+	font-size: 24px !important;	
+	border: solid;
+	border-radius: 10px;
+	border-width: medium;
+	padding: 5px;
+	margin-top: 10px;
 }
 
 /* Banner
