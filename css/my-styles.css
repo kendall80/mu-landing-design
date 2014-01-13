@@ -109,7 +109,7 @@ article, footer, header, section {
 
 .content {
 
-	width: 85%;
+	width: 75%;
 	margin: 0 auto;
 }
 
@@ -140,7 +140,6 @@ h1 {
 	line-height: 52px;
 	margin-bottom: 5px;
 	letter-spacing: 2px;
-	font-weight: 200;
 	text-transform: uppercase;
 }
 
@@ -265,7 +264,7 @@ h1 {
 	padding: 30px 160px; 
 	font-size: 1.25em;
 	letter-spacing: 1px;
-	font-weight: 110;
+	font-weight: 100;
 	color: dimgray;
 }
 
@@ -336,15 +335,15 @@ button {
 /* Media Queries
 ========================== */
 
-/* iPhone */
+/* Small resolution 
+========================== */
 
-@media (max-width: 480px) {
+@media screen and (max-width: 650px) {
 	.hero {
 		background: none; 
 	}
 	h1 {
 		font-size: 2.35em;
-		font-weight: 400;
 	}
 	.form-group {
 		width: 100%;
@@ -368,7 +367,7 @@ button {
 		font-size: 16px;
 	}
 	.ft-icon {
-		max-width: 50%;
+		max-width: 65%;
 	}
 	.last {
 		display: none;
