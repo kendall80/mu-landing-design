@@ -124,19 +124,15 @@ section {
 }
 
 .message {
-	display: block;
 	position: absolute;
-	left: 0;
 	bottom: 0;
 	width: 100%;
 	background-color: rgba(0,0,0,0.15);
 }
 
 .ft {
-	position: relative;
 	margin: 20px 0;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding: 0 30px;
 	vertical-align: middle;
 	text-transform: uppercase;
 	letter-spacing: 1px;
