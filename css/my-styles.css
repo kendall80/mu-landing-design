@@ -7,10 +7,16 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 article, footer, header, section {
-	display: block;
 	background-color: #45C18E;
 	color: #fff;
+}
 
+h1 {
+	padding: 0;
+	font-size: 2.75em;
+	line-height: 52px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
 }
 
 .hero {
@@ -21,18 +27,21 @@ article, footer, header, section {
 	background-size: auto 70%;
 }
 
-.container {
-	width: 100%;
+.container { /* to fill the entire viewport */
+	width: 100%; 
 	padding-right: 0px;
 	padding-left: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
 }
 
-/* Web Fonts
-========================== */
+.content { /* content justified box */
 
-/* Icon Fonts
+	width: 75%;
+	margin: 0 auto;
+}
+
+/* Icon & Logo Fonts
 ========================== */
 
 @font-face {
@@ -60,39 +69,7 @@ article, footer, header, section {
 /* Banner
 ========================== */
 
-.banner {
-	display: block;
-}
-
-.banner .content {
-	text-align: justify;
-	padding-top: 10px;
-}
-
-.banner a {
-	color: #fff;
-	display: inline-block;
-	position: relative;
-	white-space: nowrap;
-	text-decoration: none;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	font-size: 0.75em;
-}
-
-.banner a:after {
-	background: #fff;
-	opacity: 0;
-	display: inline-block;
-	position: absolute;
-	left: 0;
-	bottom: 5px;
-	content: "";
-	width: 100%;
-	height: 2px;
-}
-
-.banner:before {
+.banner:before { /* multi-color bar */
 	content: '';
   position: absolute;
   top: 0;
@@ -107,10 +84,18 @@ article, footer, header, section {
   background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
 }
 
-.content {
+.banner .content {
+	text-align: justify;
+	padding-top: 10px;
+}
 
-	width: 75%;
-	margin: 0 auto;
+.banner a {
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 0.75em;
 }
 
 .banner .content:after {
@@ -123,7 +108,7 @@ article, footer, header, section {
 ========================== */
 
 section {
-	position: relative;
+	position: relative; /* set the various elements relative to the hero container*/
 }
 
 .hero {
@@ -132,15 +117,6 @@ section {
 
 .headline {
 	padding: 10px 0;
-}
-
-h1 {
-	padding: 0;
-	font-size: 2.75em;
-	line-height: 52px;
-	margin-bottom: 5px;
-	letter-spacing: 2px;
-	text-transform: uppercase;
 }
 
 .call-to-action {
