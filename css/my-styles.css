@@ -69,6 +69,15 @@ h1 {
 /* Banner
 ========================== */
 
+.banner a {
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 0.75em;
+}
+
 .banner:before { /* multi-color bar */
 	content: '';
   position: absolute;
@@ -89,15 +98,6 @@ h1 {
 	padding-top: 10px;
 }
 
-.banner a {
-	color: #fff;
-	display: inline-block;
-	text-decoration: none;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	font-size: 0.75em;
-}
-
 .banner .content:after {
 	content: "";
 	display: inline-block;
@@ -113,6 +113,10 @@ section {
 
 .hero {
 	height: 530px;
+}
+
+.hero img {
+	display: inline-block;
 }
 
 .headline {
@@ -313,9 +317,10 @@ button {
 @media screen and (max-width: 650px) {
 	.hero {
 		background: none; 
+		height: 480px;
 	}
 	h1 {
-		font-size: 2em;
+		font-size: 1.8em;
 	}
 	.form-group {
 		width: 100%;
