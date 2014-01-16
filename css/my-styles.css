@@ -481,7 +481,6 @@ button {
 
 @media screen and (max-width: 650px) {
 	.hero {
-		background-image: url("../public/img/wood-texture.jpg"); 
 		height: 480px;
 	}
 	h1 {
