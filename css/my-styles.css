@@ -22,9 +22,8 @@ h1 {
 .hero {
 	background-position: 50% 100%;
 	text-align: center;
-	background-image: url("../public/img/iphone.png");
+	background-image: url("../public/img/bg-desk.jpg");
 	background-repeat: no-repeat;
-	background-size: auto 70%;
 }
 
 .container { /* to fill the entire viewport */
@@ -69,8 +68,14 @@ h1 {
 /* Banner
 ========================== */
 
+.banner {
+	background-color: white;
+	height: 70px;
+	border-bottom: 2px solid #53777A;
+}
+
 .banner a {
-	color: #fff;
+	color: dimgray;
 	display: inline-block;
 	text-decoration: none;
 	letter-spacing: 1px;
@@ -86,7 +91,6 @@ h1 {
   right: 0;
   height: 6px;
   background: #c4e17f;
-  border-radius: 5px 5px 0 0;
   background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
   background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
   background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
@@ -120,7 +124,7 @@ section {
 }
 
 .headline {
-	padding: 10px 0;
+	padding: 30px 0;
 }
 
 .call-to-action {
@@ -477,7 +481,7 @@ button {
 
 @media screen and (max-width: 650px) {
 	.hero {
-		background: none; 
+		background-image: url("../public/img/wood-texture.jpg"); 
 		height: 480px;
 	}
 	h1 {
