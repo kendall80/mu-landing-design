@@ -341,6 +341,7 @@ input {
 	color: dimgray;
 	letter-spacing: 1px;
 	padding: 20px 0;
+	text-align: center;
 }
 
 /* Jumbotron
@@ -500,5 +501,8 @@ button {
 		letter-spacing: 0;
 		text-align: center;
 	}
+	body .modal-dialog {
+	width: 300px;
+}
 }
 
