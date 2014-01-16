@@ -152,6 +152,7 @@ body .modal-dialog {
 	color: rgb(105, 105, 105);
 	width: 280px;
 }
+
 .sign-up {
   position: relative;
   margin: 50px auto;
@@ -286,6 +287,15 @@ input {
   padding: 0;
 }
 
+.terms {
+	margin-top: 20px;
+	font-size: 0.8em;
+}
+
+#t_and_c_m {
+	text-align: left;
+	width: auto;
+}
 
 /* Ecosystem
 ========================== */
