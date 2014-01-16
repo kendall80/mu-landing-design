@@ -304,12 +304,16 @@ input {
 	background: #fff;
 	color: dimgray;
 	letter-spacing: 1px;
-	padding: 30px 0;
+	padding: 30px 0px;
 	border-bottom: solid 1px #D8D8D8;
 }
 
 .ecosystem .row {
 	padding: 30px 0;
+}
+
+.ecosystem .content {
+	width: 100%;
 }
 
 .ft-icon {
@@ -489,6 +493,8 @@ button {
 	.ecosystem .row {
 		padding: 15px 0;
 		border-bottom: solid 1px #D8D8D8; 
+		width: 85%;
+		margin: 0 auto;
 	}
 	.ecosystem .row:last-child {
 		padding: 15px 0;
