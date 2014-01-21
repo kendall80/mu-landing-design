@@ -300,11 +300,22 @@ input {
 /* Steps
 ========================== */
 
+.steps {
+	background: #fff;
+	color: dimgray;
+	letter-spacing: 1px;
+	border-bottom: solid 1px #D8D8D8;
+	padding: 40px 0px;
+}
+
+.step-icon {
+	margin-top: 30px;
+}
 
 /* Ecosystem
 ========================== */
 
-.ecosystem, .steps {
+.ecosystem {
 	background: #fff;
 	color: dimgray;
 	letter-spacing: 1px;
@@ -342,7 +353,7 @@ input {
 
 .claim {
 	text-align: center;
-	background-color: #45C18E;
+	background-color: #009B77;
 }
 
 .claim h3 {
