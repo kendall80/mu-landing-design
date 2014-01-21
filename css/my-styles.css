@@ -297,10 +297,14 @@ input {
 	width: auto;
 }
 
+/* Steps
+========================== */
+
+
 /* Ecosystem
 ========================== */
 
-.ecosystem {
+.ecosystem, .steps {
 	background: #fff;
 	color: dimgray;
 	letter-spacing: 1px;
