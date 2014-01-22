@@ -320,6 +320,13 @@ section {
 	z-index: 0;
 }
 
+.elevator {
+	background-color: #f8f8f8;
+	color: dimgray;
+	padding: 80px 0;
+	letter-spacing: 1px;
+}
+
 /* Modal
 ========================== */
 
