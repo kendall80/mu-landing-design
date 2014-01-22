@@ -12,8 +12,24 @@ article, footer, header, section {
 
 .what-is-mu {
 	color: dimgray;
+	padding-top: 1px;
 	font-weight: 300;
-	
+	letter-spacing: 1px;
+	background-color: #f8f8f8;
+	border-bottom: solid 1px #D8D8D8;
+}
+
+.the-app {
+	color: #fff;
+	background-color: #009B77;
+	padding-top: 1px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	border-bottom: solid 1px #D8D8D8;
+}
+
+.the-app .row {
+	padding: 20px;
 }
 
 h1 {
@@ -182,6 +198,7 @@ section {
         }
 
         .timeline > li > .timeline-panel {
+        		background-color: #fff;
             width: 46%;
             float: left;
             border: 1px solid #d4d4d4;
@@ -287,6 +304,21 @@ section {
         margin-top: 5px;
     }
 
+
+/* The App
+========================== */
+.under {
+	position: absolute;
+	left: -20px;
+	top: -40px;
+	z-index: 0;
+}
+.over {
+	position: absolute;
+	left: 80px;
+	top: 45px;
+	z-index: 0;
+}
 
 /* Modal
 ========================== */
@@ -447,7 +479,6 @@ input {
 	background: #fff;
 	color: dimgray;
 	letter-spacing: 1px;
-	border-top: solid 1px #D8D8D8;
 	border-bottom: solid 1px #D8D8D8;
 }
 
@@ -459,8 +490,10 @@ input {
 	width: 100%;
 }
 
-.spending, .rewards {
+.savings, .shopping {
 	background-color: #f8f8f8;
+	border-top: solid 1px #D8D8D8;
+	border-bottom: solid 1px #D8D8D8;
 }
 
 .ft-icon {
@@ -482,6 +515,7 @@ input {
 
 .claim {
 	text-align: center;
+	padding: 80px 0;
 	background-color: #009B77;
 }
 
@@ -619,4 +653,17 @@ button {
   	font-size: 1.5em;
   	text-align: center;
   }
+
+  .the-app .row {
+  	padding: 20px 0;
+		border-bottom: solid 1px #D8D8D8;
+
+	}
+	.the-app .row:last-child {
+		padding: 15px 0;
+		border-bottom: none; 
+	}
+	.iphone {
+		display: none;
+	}
 }
