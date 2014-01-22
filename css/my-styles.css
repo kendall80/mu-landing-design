@@ -115,10 +115,6 @@ section {
 	height: 530px;
 }
 
-.hero img {
-	display: inline-block;
-}
-
 .headline {
 	padding: 20px 0;
 }
@@ -362,66 +358,11 @@ input {
 	text-align: center;
 }
 
-/* Jumbotron
-========================== */
-
-.jumbotron {
-	text-align: center;
-	background: white;
-	padding-bottom: 40px;
-}
-
-.jumbotron h2 {
-	padding-bottom: 25px;
-}
-
 /* Special IDs
 ========================== */
 
-#hero-image {
-	height: 300px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#features {
-	background: #f6f8f8;
-	padding: 30px;
-	border-top: 1px solid #dadfe1;
-}
-
-#features .img-responsive {
-	max-width: 75%;
-	display: inline-block;
-} 
-
-#claim {
-	background: #f6f8f8;
-	border-bottom: 1px solid #dadfe1;
-}
-
-#claim p {
-	text-align: center;
-	padding: 30px 160px; 
-	font-size: 1.25em;
-	letter-spacing: 1px;
-	font-weight: 100;
-	color: dimgray;
-}
-
-#footer {
-	margin: 0px;
-	padding: 10px 0 0 0;
-	border-top: 1px solid #dadfe1;
-	background: #f6f8f8;
-}
-
 /* Button 
 ========================== */
-
-.form-group {
-	width: 225px;
-}
 
 button {
 	margin-left: 10px;
@@ -430,46 +371,12 @@ button {
 /* Glyphicons
 ========================== */
 
-.glyphicon {
-	font-size: 3.2em;
-	display: block;
-	margin: auto;
-}
-
-.glyphicon-gift {
-	color: #3498db;
-}
 
 /* Logos & Icons
 ========================== */
 
 .logo {
 	text-transform: lowercase;
-}
-
-.main-logo {
-	width: 45px;
-	height: 45px;
-	margin-top: 3px;
-	margin-left: 0px;
-	margin-bottom: 0px;
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	background: url('../img/logo.png') no-repeat;
-	background-size: 100%;
-}
-
-
-[data-icon]::before {
-	font-family: 'icomoon';
-	content: attr(data-icon);
-	speak: none;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-	font-size: 3.2em;
 }
 
 
@@ -485,9 +392,6 @@ button {
 	}
 	h1 {
 		font-size: 1.8em;
-	}
-	.form-group {
-		width: 100%;
 	}
 	button {
 		margin-left: 0px;
