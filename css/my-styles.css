@@ -41,10 +41,11 @@ h1 {
 }
 
 .header {
-	background-position: 50% 90%;
+  background-color: #009B77;
 	text-align: center;
+  /* background-position: 50% 90%;
 	background-image: url("../public/img/bg-desk.jpg");
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; */
 }
 
 .container { /* to fill the entire viewport */
