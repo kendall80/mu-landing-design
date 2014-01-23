@@ -19,10 +19,11 @@ h1 {
 }
 
 .header {
-	background-position: 50% 100%;
+	background-position: 48% 79%;
 	text-align: center;
-	background-image: url("../public/img/bg-desk.jpg");
+	background-image: url("../public/mu-bg.png");
 	background-repeat: no-repeat;
+  background-size: 115% auto;
 }
 
 .container { /* to fill the entire viewport */
@@ -390,6 +391,16 @@ button {
 	.hero {
 		height: 480px;
 	}
+  .header {
+    background-size: auto;
+    background-position: 49.7% 90%;
+  }
+  .headline {
+  padding: 0;
+  }
+  .call-to-action {
+    margin: 0px 0px;
+  }
 	h1 {
 		font-size: 1.8em;
 	}
