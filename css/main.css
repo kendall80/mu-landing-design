@@ -330,4 +330,10 @@ input {
     .centered-mobile {
         text-align: center;
     }
+    body .modal-dialog {
+        width: 300px;
+    }
+    .sign-up-title {
+      font-size: 21px;
+    }
 }
