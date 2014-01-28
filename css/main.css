@@ -8,7 +8,7 @@
  */
 
 body {
-  background-color: #f2f2f2;
+  
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -119,6 +119,9 @@ i {
 	color: #3498db; 
 }
 
+.mb {
+    margin-bottom: 40px;
+}
 
 /* HeaderWrap */
 #headerwrap {
@@ -168,22 +171,8 @@ i {
     .padding {
         padding-top: 30px;
     }
+    input {
+        text-align: center;
+        margin: auto;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
-
