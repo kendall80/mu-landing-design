@@ -147,8 +147,9 @@ i {
 @media screen and (max-width: 767px) {
     #headerwrap h1, 
     h1 {
-        font-size: 28px;
+        font-size: 26px;
         margin-top: 0px;
+        text-align: center;
     }
     h3 {
         font-size: 18px;
@@ -160,21 +161,3 @@ i {
         padding-top: 30px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
-
