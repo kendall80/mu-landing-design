@@ -309,6 +309,9 @@ input {
 /* Media Queries */
 
 @media screen and (max-width: 767px) {
+    #headerwrap {
+      min-height: 520px;
+    }
     #headerwrap h1, 
     h1 {
         font-size: 28px;
