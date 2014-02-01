@@ -122,6 +122,11 @@ i {
     padding: 0px 10px;
 }
 
+.img-resize {
+    height: auto;
+    max-width: 75%;
+}
+
 /* HeaderWrap */
 #headerwrap {
 	/* background: url(../img/bg01.jpg) no-repeat center top; */
@@ -308,6 +313,9 @@ input {
 /* Media Queries */
 
 @media screen and (max-width: 767px) {
+    .img-resize {
+      max-width: 50%;
+    }
     #headerwrap {
       min-height: 520px;
     }
@@ -339,3 +347,9 @@ input {
       font-size: 21px;
     }
 }
+
+
+
+
+
+
