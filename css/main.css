@@ -127,6 +127,10 @@ i {
     max-width: 75%;
 }
 
+.nav-padding {
+  padding-top: 100px;
+}
+
 /* HeaderWrap */
 #headerwrap,
 #bloghead {
